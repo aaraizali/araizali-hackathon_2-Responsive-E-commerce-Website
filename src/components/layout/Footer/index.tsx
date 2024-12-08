@@ -23,12 +23,12 @@ const socialsData: SocialNetworks[] = [
   {
     id: 3,
     icon: <FaInstagram />,
-    url: "https://instagram.com",
+    url: "https://www.instagram.com/aaraiz.ali.81/",
   },
   {
     id: 4,
     icon: <FaGithub />,
-    url: "https://github.com/Nimrahjawaid03",
+    url: "https://github.com/aaraizali",
   },
 ];
 
@@ -105,13 +105,13 @@ const Footer = () => {
             <p className="text-sm text-center sm:text-left text-black/60 mb-4 sm:mb-0 sm:mr-1">
               Shop.co © Made by 
               <Link
-                href="https://github.com/Nimrahjawaid03"
+                href="https://github.com/aaraizali"
                 className="text-black font-medium"
               >
-                 Nimrah M.Jawaid
+                Aaraiz Ali
               </Link>
               {", "}
-              Designed by NMJ
+              Designed by Aaraiz Ali
             </p>
             <div className="flex items-center">
               {paymentBadgesData.map((badge, _, arr) => (
